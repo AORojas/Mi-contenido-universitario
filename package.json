@@ -4,18 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AORojas/Mi-contenido-universitario.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "Adrian Orrego Rojas",
+  "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/AORojas/Mi-contenido-universitario/issues"
   },
-  "homepage": "https://github.com/AORojas/Mi-contenido-universitario#readme"
+  "homepage": "https://github.com/AORojas/Mi-contenido-universitario#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0"
+  }
 }
